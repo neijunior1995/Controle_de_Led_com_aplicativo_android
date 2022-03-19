@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@+id/activity_vermelho"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Vermelho"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+    <EditText android:id="@+id/activity_verde"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:inputType="numberDecimal"
+        android:hint="Verde"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+    <EditText android:id="@+id/activity_azul"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:inputType="numberDecimal"
+        android:hint="Azul"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/botao_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar" />
+</LinearLayout>
